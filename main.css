@@ -51,8 +51,14 @@ main {
   padding: 10px 15px 10px 15px;
   border-radius: 20px;
   color: white;
-  background-color: #ff6e00;
+  background-color: rgb(254, 111, 15);
   position: fixed;
   bottom: 120px;
   right: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.write-btn:hover {
+  background-color: rgb(254, 142, 15);
 }
