@@ -1,0 +1,61 @@
+/* / html에서 기본적으로 <body>에 패딩이 들어가 있음
+그래서 완벽하게 내 css로 적용시키고 싶으면 reset css를 해야함. */
+
+header {
+  margin-top: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid gray;
+}
+
+/* //헤더 위 양옆으로 하기 */
+
+.헤더-위 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+.헤더-위__시간 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* /헤더위 아이콘에 있는 이미지 크기 설정 */
+
+.헤더-위__아이콘 img {
+  width: 15px;
+}
+
+.헤더-밑 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.헤더-밑__위치 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 13px;
+}
+
+.헤더-밑__위치 div {
+  font-weight: bold;
+}
+
+.헤더-밑__위치 img {
+  width: 15px;
+}
+
+.헤더-밑__아이콘 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.헤더-밑__아이콘 img {
+  width: 20px;
+  margin-right: 10px;
+}
